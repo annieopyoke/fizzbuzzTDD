@@ -6,7 +6,7 @@ def array_evaulator(place_holder)
 	$numbers_array[place_holder]
 end
 
-def numberEval(test_number)
+def numberEval()
 	# number = test_number
 	counter = 0
 	100.times do
@@ -20,8 +20,11 @@ def numberEval(test_number)
 	end
 	counter += 1
 	end
-	$numbers_array[test_number]
+	# $numbers_array[test_number]
+
 end
+numberEval()
+puts $numbers_array
 
 
 # def numberEval(test_number)
