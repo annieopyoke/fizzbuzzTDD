@@ -1,5 +1,5 @@
+$numbers_array = *(1..100)
 def create_array()
-	$numbers_array = *(1..100)
 	$numbers_array.class
 end
 def array_evaulator(place_holder)

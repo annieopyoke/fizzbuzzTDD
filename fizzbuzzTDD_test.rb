@@ -32,6 +32,10 @@ def test_assert_that_start_equals_1
 	assert_equal(1, array_evaulator(0))
 
 end
+def test_assert_that_last_equals_1
+	assert_equal(100, array_evaulator(99))
+
+end
 
 end
 
