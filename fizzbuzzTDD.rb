@@ -8,6 +8,10 @@ end
 
 def numberEval(test_number)
 	number = test_number
+counter = 1
+100.times do
+	$numbers_array[counter]
+
 	
 	if number % 3 ==0 && number  % 5 ==0
 	  "fizzbuzz"
@@ -15,9 +19,10 @@ def numberEval(test_number)
 		"buzz"  
 	elsif number % 3== 0
 		"fizz"	
-	else
-		"Number is not divisible"
+	
 	end
+	counter += 1
+end
 end
 
 
