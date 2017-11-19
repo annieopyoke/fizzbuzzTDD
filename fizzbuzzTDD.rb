@@ -2,7 +2,7 @@ def numberEval(test_number)
 	number = test_number
 	if number % 3== 0
 		"fizz"
-	else
-		number
+	elsif number % 5 == 0
+		"buzz"
 	end
 end
