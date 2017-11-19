@@ -20,5 +20,8 @@ end
 def test_assert_that_fizzbuzzChecker_says_60_is_fizzbuzz
 	assert_equal("fizzbuzz", fizzbuzzChecker(60))
 end
+def test_assert_that_fizzbuzzChecker_says_2_is_not_divisible
+	assert_equal("Number is not divisible", fizzbuzzChecker(2))
+end
 
 end
