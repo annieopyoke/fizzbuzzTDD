@@ -8,5 +8,8 @@ end
 def test_assert_that_10_is_buzz
 	assert_equal("buzz", numberEval(10))
 end
+def test_assert_that_15_is_buzz
+	assert_equal("fizzbuzz", numberEval(15))
+end
 
 end

@@ -1,8 +1,11 @@
 def numberEval(test_number)
 	number = test_number
-	if number % 3== 0
-		"fizz"
+	
+	if number % 3 ==0 && number  % 5 ==0
+	  "fizzbuzz"
 	elsif number % 5 == 0
-		"buzz"
+		"buzz"  
+	elsif number % 3== 0
+		"fizz"	
 	end
 end
