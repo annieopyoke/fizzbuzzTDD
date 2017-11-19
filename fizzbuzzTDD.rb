@@ -7,22 +7,20 @@ def array_evaulator(place_holder)
 end
 
 def numberEval(test_number)
-	number = test_number
-counter = 1
-100.times do
-	$numbers_array[counter]
-
+	# number = test_number
+	counter = 0
+	100.times do
 	
-	if number % 3 ==0 && number  % 5 ==0
-	  "fizzbuzz"
-	elsif number % 5 == 0
-		"buzz"  
-	elsif number % 3== 0
-		"fizz"	
-	
+	if $numbers_array[counter] % 3 ==0 && $numbers_array[counter]  % 5 ==0
+	  $numbers_array[counter] = "fizzbuzz"
+	elsif $numbers_array[counter] % 5 == 0
+		$numbers_array[counter] ="buzz"  
+	elsif $numbers_array[counter] % 3== 0
+		$numbers_array[counter] ="fizz"	
 	end
 	counter += 1
-end
+	end
+	$numbers_array[test_number]
 end
 
 

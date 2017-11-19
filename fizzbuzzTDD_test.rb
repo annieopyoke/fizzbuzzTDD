@@ -37,6 +37,9 @@ end
 def test_assert_that_25th_equals_26
 	assert_equal(26, array_evaulator(25))
 end
+def test_assert_that_position_2_says_fizz
+	assert_equal("fizz", numberEval(2))
 
+end
 end
 
