@@ -28,18 +28,23 @@ class TestfizzbuzzTDD < Minitest::Test
 def test_assert_that_create_array_is_a_array
 	assert_equal(Array, create_array())
 end
-def test_assert_that_start_equals_1
-	assert_equal(1, array_evaulator(0))
-end
-def test_assert_that_last_equals_1
-	assert_equal(100, array_evaulator(99))
-end
-def test_assert_that_25th_equals_26
-	assert_equal(26, array_evaulator(25))
-end
+# def test_assert_that_start_equals_1
+# 	assert_equal(1, array_evaulator(0))
+# end
+# def test_assert_that_last_equals_1
+# 	assert_equal(100, array_evaulator(99))
+# end
+# def test_assert_that_25th_equals_26
+# 	assert_equal(26, array_evaulator(25))
+# end
 def test_assert_that_position_2_says_fizz
 	assert_equal("fizz", numberEval(2))
-
+end
+def test_assert_that_position_4_says_buzz
+	assert_equal("buzz", numberEval(4))
+end
+def test_assert_that_position_14_says_fizzbuzz
+	assert_equal("fizzbuzz", numberEval(14))
 end
 end
 
