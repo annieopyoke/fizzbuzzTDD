@@ -11,17 +11,21 @@ end
 def test_assert_that_15_is_buzz
 	assert_equal("fizzbuzz", numberEval(15))
 end
-def test_assert_that_fizzbuzzChecker_says_3_is_fizz
-	assert_equal("fizz", fizzbuzzChecker(3))
+def test_assert_that_numberEval_says_3_is_fizz
+	assert_equal("fizz", numberEval(3))
 end
-def test_assert_that_fizzbuzzChecker_says_35_is_buzz
-	assert_equal("buzz", fizzbuzzChecker(35))
+def test_assert_that_numberEval_says_35_is_buzz
+	assert_equal("buzz", numberEval(35))
 end
-def test_assert_that_fizzbuzzChecker_says_60_is_fizzbuzz
-	assert_equal("fizzbuzz", fizzbuzzChecker(60))
+def test_assert_that_numberEval_says_60_is_fizzbuzz
+	assert_equal("fizzbuzz", numberEval(60))
 end
-def test_assert_that_fizzbuzzChecker_says_2_is_not_divisible
-	assert_equal("Number is not divisible", fizzbuzzChecker(2))
-end
+# def test_assert_that_numberEval_says_2_is_not_divisible
+# 	assert_equal("Number is not divisible", numberEval(2))
+# end
+# def test_assert_start_number_is_1
+# 	assert_equal("start", numberEval(1))
+
 
 end
+
