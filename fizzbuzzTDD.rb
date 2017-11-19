@@ -1,5 +1,8 @@
-numbers_array = *(1..100)
+def create_array()
+	numbers_array = *(1..100)
 puts numbers_array
+numbers_array.class
+end
 
 def numberEval(test_number)
 	number = test_number

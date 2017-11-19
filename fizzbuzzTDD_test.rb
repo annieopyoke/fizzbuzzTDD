@@ -25,7 +25,9 @@ end
 # end
 # def test_assert_start_number_is_1
 # 	assert_equal("start", numberEval(1))
-
+def test_assert_that_create_array_is_a_array
+	assert_equal(Array, create_array())
+end
 
 end
 
