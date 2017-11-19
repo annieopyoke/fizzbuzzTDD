@@ -28,6 +28,9 @@ end
 def test_assert_that_create_array_is_a_array
 	assert_equal(Array, create_array())
 end
+def test_assert_that_start_equals_1
+	assert_equal(1, create_array(0))
+end
 
 end
 
