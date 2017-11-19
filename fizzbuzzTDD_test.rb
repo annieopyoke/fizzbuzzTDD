@@ -14,5 +14,11 @@ end
 def test_assert_that_fizzbuzzChecker_says_3_is_fizz
 	assert_equal("fizz", fizzbuzzChecker(3))
 end
+def test_assert_that_fizzbuzzChecker_says_35_is_buzz
+	assert_equal("buzz", fizzbuzzChecker(35))
+end
+def test_assert_that_fizzbuzzChecker_says_60_is_fizzbuzz
+	assert_equal("fizzbuzz", fizzbuzzChecker(60))
+end
 
 end
