@@ -9,3 +9,11 @@ def numberEval(test_number)
 		"fizz"	
 	end
 end
+
+def fizzbuzzChecker(test_number)
+	if numberEval(test_number) == "fizz"
+		numberEval(test_number)
+	else 
+		"Number is not divisible"
+	end
+end
